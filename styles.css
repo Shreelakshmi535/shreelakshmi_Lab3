@@ -1,0 +1,83 @@
+.title {
+    font-size: 24px;
+    color: #4a148c; /* dark purple */
+    text-align: center;
+    margin-bottom: 10px; /* space between title and subtitle */
+    font-weight: 600;
+}
+
+.subtitle {
+    font-size: 20px; /* Adjust font size as needed */
+    color: #6a1b9a; /* deep purple or any color you prefer */
+    text-align: center;
+    margin-top: 0; /* No margin above the subtitle */
+    margin-bottom: 15px; /* Space below the subtitle, adjust as needed */
+    font-weight: 500; /* Adjust weight as needed */
+    display: block; /* Ensures subtitle takes up its own line */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #dfdae1; /* light lavender */
+}
+
+.main-tab {
+    width: 650px;
+    padding: 20px;
+    background-color: #489a85; /* soft lavender */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.calculator-header {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center; /* Center align items */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+.currency-info {
+    background-color: #906691; /* purple color */
+    padding: 4px 10px; /* reduced vertical padding, kept horizontal padding */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    position: relative; /* Changed from absolute for better flow */
+    margin-top: 10px; /* Space above currency info */
+    max-width: 150px; /* increased width */
+    height: auto; /* allows for natural height */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #4a148c; /* dark purple */
+}
+
+input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #01314a; /* purple border */
+    border-radius: 5px;
+    background-color: #f3e5f5; /* light purple */
+}
+
+input[type="range"] {
+    width: 60%;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #68c8c2; /* teal border */
+    border-radius: 5px;
+    background-color: #f3e5f5; /* light purple */
+}
